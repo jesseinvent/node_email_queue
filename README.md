@@ -5,4 +5,4 @@ Send emails asynchronously using a Queue system with Bull and Redis
 ```$ docker build . ```
 
 # Run Redis container
-```$ docker-composr up```
+```$ docker-compose up```
