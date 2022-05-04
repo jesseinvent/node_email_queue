@@ -7,6 +7,6 @@ router.get("/", (req, res, next) => {
   return res.status(200).json({ message: "Hello world!" });
 });
 
-router.get("/send", send);
+router.post("/send", send);
 
 export default router;
